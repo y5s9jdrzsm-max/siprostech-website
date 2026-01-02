@@ -26,12 +26,12 @@ export default function About() {
       <div className="container relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-[#00d9ff] font-mono text-sm uppercase tracking-wider">About SIPROSTECH</span>
+          <span className="text-[#00d9ff] font-mono text-sm uppercase tracking-wider">About Siprostech</span>
           <h2 className="text-4xl md:text-6xl font-display font-bold mt-4 mb-6">
-            <span className="text-gradient-cyan-violet">Bridging</span> Europe & Asia
+            <span className="text-gradient-cyan-violet">Who We Are</span>
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            A Singapore-based semiconductor professional services company founded in 2021 by industry veterans with 20+ years of global experience. We connect European semiconductor enterprises with Asia's mature, efficient, and compliant semiconductor ecosystem.
+            Siprostech is a semiconductor consulting and sourcing company focused on enabling reliable, scalable, and cost-effective semiconductor operations across regions. We bridge European technology companies with Asian manufacturing and supply chain ecosystems, providing execution-driven, engineering-led support across the full semiconductor lifecycle.
           </p>
         </div>
 
@@ -58,36 +58,22 @@ export default function About() {
           {/* Content Side */}
           <div className="space-y-6">
             <div className="frosted-glass p-8 rounded-xl border border-white/10">
-              <h3 className="text-2xl font-display font-bold text-[#00d9ff] mb-4">Our Founder & Team</h3>
+              <h3 className="text-2xl font-display font-bold text-[#00d9ff] mb-4">Founder Background</h3>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                SIPRO Technology Pte. Ltd. was established in Singapore on 29 July 2021 by semiconductor industry veterans with 20+ years of combined global experience.
-              </p>
-              <p className="text-foreground/70 text-sm leading-relaxed mb-3">
-                Our founders have worked ~20 years at world-leading semiconductor foundries and European chip design companies, gaining deep understanding of the complete chip lifecycle: R&D, process development, wafer fabrication, packaging, testing, reliability verification, and mass production.
+                The founder has over 10 years of hands-on experience working with leading global semiconductor foundries and more than 10 European IC design companies.
               </p>
               <p className="text-foreground/70 text-sm leading-relaxed">
-                Expertise spans semiconductor manufacturing, advanced & mature process development, quality & reliability management, global supply chain optimization, and IP/third-party vendor management. We understand both European quality standards and Asian manufacturing efficiency—making us the ideal bridge between two semiconductor ecosystems.
+                This experience spans technology development, foundry management, IP sourcing, qualification, test strategy, and global supply chain operations—covering the full semiconductor lifecycle from design to mass production.
               </p>
             </div>
 
             <div className="frosted-glass p-8 rounded-xl border border-white/10">
-              <h3 className="text-2xl font-display font-bold text-[#a855f7] mb-4">Our Mission</h3>
-              <p className="text-foreground/80 leading-relaxed mb-4">
-                Help European semiconductor enterprises access global best-in-class manufacturing, materials, equipment, and engineering services with lower risk, higher efficiency, full traceability and compatibility.
-              </p>
-              <p className="text-foreground/70 text-sm leading-relaxed mb-4">
-                We are not simple traders or brokers. We operate as engineers and industry managers, delivering semiconductor solutions that are implementable, traceable, and built for long-term partnership.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {["End-to-End Process Understanding", "Europe + Asia Dual Expertise", "Engineering-Driven Solutions", "SME-Friendly Support", "Full Compliance & Traceability"].map((tag) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1 text-xs font-mono bg-[#a855f7]/10 text-[#a855f7] rounded-full border border-[#a855f7]/30"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
+              <h3 className="text-2xl font-display font-bold text-[#a855f7] mb-4">Our Positioning</h3>
+              <ul className="text-foreground/70 text-sm leading-relaxed space-y-2">
+                <li><strong className="text-[#a855f7]">Switzerland</strong> – technical trust, quality mindset, neutrality</li>
+                <li><strong className="text-[#a855f7]">Singapore</strong> – global coordination and international trade hub</li>
+                <li><strong className="text-[#a855f7]">China & Asia</strong> – manufacturing execution, engineering depth, and supply chain flexibility</li>
+              </ul>
             </div>
           </div>
         </div>
