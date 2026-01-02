@@ -14,43 +14,57 @@ export default function Services() {
     {
       id: 1,
       icon: Briefcase,
-      title: "Foundry Management Consultancy",
-      description: "Combining founder experience at global foundries and European design companies, we help European semiconductor enterprises select optimal foundries, evaluate process platforms, plan quality/reliability strategies, assess suppliers, balance cost/lead time/capacity, and connect with IP vendors.",
+      title: "Foundry & Manufacturing Support",
+      description: "We support European semiconductor companies in selecting, qualifying, and managing foundry and manufacturing partners across Asia.",
       image: "/images/services-consultancy.png",
       color: "#00d9ff",
       features: [
-        "Foundry selection and strategy",
-        "Process platform evaluation and feasibility analysis",
-        "Quality and reliability planning",
-        "Supplier assessment and risk management",
+        "Foundry benchmarking and qualification support",
+        "Specialty and mature node strategy",
+        "Process option evaluation and risk assessment",
+        "Foundry and OSAT technical interface coordination",
       ],
     },
     {
       id: 2,
       icon: Package,
-      title: "Equipment & Silicon Materials Supply",
-      description: "Help European customers access high-quality, customizable, cost-effective semiconductor equipment, parts, and materials from Asia. Particular strength in standard and custom silicon wafers—from specification definition to supplier matching to quality feedback.",
+      title: "Reliability, Qualification, Test & Failure Analysis",
+      description: "We provide reliability, qualification, test, and failure analysis services equivalent to those offered by established European test houses. All activities are executed through experienced Asian laboratories with engineering-driven project management aligned with European automotive and industrial quality expectations.",
       image: "/images/services-equipment.png",
       color: "#a855f7",
       features: [
-        "Semiconductor production and test equipment",
-        "Equipment components and consumables",
-        "Semiconductor raw materials",
-        "Standard and custom silicon wafers (core strength)",
+        "Reliability and qualification plan definition (AEC-Q / industrial / custom)",
+        "Stress test strategy and execution (HTOL, HAST, TC, Burn-in, etc.)",
+        "Wafer-level and package-level test services",
+        "Failure analysis coordination and result interpretation",
       ],
     },
     {
       id: 3,
       icon: FlaskConical,
-      title: "Engineering & Lab Outsourcing Services",
-      description: "Flexible, customizable outsourcing support for European semiconductor companies facing high labor costs and limited engineering resources. From simple assembly and testing to advanced failure analysis and reliability characterization.",
+      title: "Engineering Sample, NPI & Ramp-Up Support",
+      description: "We support customers throughout early project phases, from MPW and pilot runs to production ramp-up, with engineering sample management, traceability, and coordination across foundry, OSAT, test, and customer teams.",
       image: "/images/services-laboratory.png",
       color: "#fbbf24",
       features: [
-        "Custom testing and verification services",
-        "Packaging and assembly support",
-        "Reliability testing",
-        "Failure analysis (FA) coordination and probe cards",
+        "Engineering sample management and traceability",
+        "Re-test, re-spin, and qualification decision support",
+        "Coordination across foundry, OSAT, test, and customer teams",
+        "Production ramp-up support",
+      ],
+    },
+    {
+      id: 4,
+      icon: Package,
+      title: "Semiconductor Equipment, Components & Manufacturing Ecosystem",
+      description: "We support sourcing and ecosystem integration of semiconductor equipment, components, and manufacturing resources, with a strong focus on China-origin supply chains. Our services address the increasing demand for compatible and cost-effective alternatives in semiconductor manufacturing, assembly, and test environments.",
+      image: "/images/services-equipment.png",
+      color: "#00d9ff",
+      features: [
+        "Semiconductor production and backend equipment",
+        "Fully compatible spare parts and critical components",
+        "Assembly and test manufacturing resources",
+        "Local technical interface and ecosystem coordination in Europe",
       ],
     },
   ];
@@ -64,12 +78,12 @@ export default function Services() {
       <div className="container relative z-10">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <span className="text-[#00d9ff] font-mono text-sm uppercase tracking-wider">Our Services</span>
+          <span className="text-[#00d9ff] font-mono text-sm uppercase tracking-wider">Services</span>
           <h2 className="text-4xl md:text-6xl font-display font-bold mt-4 mb-6">
-            Three Core <span className="text-gradient-cyan-violet">Service Pillars</span>
+            Our <span className="text-gradient-cyan-violet">Service Portfolio</span>
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            Foundry consultancy, equipment & materials supply, and outsourced engineering services—all designed to help European semiconductor companies access Asia's resources with lower risk and full compliance.
+            We support customers from early technology decisions through manufacturing, qualification, ramp-up, and long-term supply chain operation—focusing on practical execution rather than theoretical consulting.
           </p>
         </div>
 
