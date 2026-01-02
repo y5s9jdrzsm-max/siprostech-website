@@ -71,12 +71,12 @@ export default function Contact() {
       <div className="container relative z-10">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <span className="text-[#00d9ff] font-mono text-sm uppercase tracking-wider">Get In Touch</span>
+          <span className="text-[#00d9ff] font-mono text-sm uppercase tracking-wider">Contact</span>
           <h2 className="text-4xl md:text-6xl font-display font-bold mt-4 mb-6">
-            Let's <span className="text-gradient-cyan-violet">Connect</span>
+            Let's <span className="text-gradient-cyan-violet">Discuss</span>
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            Whether you need foundry consultancy, equipment sourcing, or lab services, our team is ready to discuss how SIPROSTECH can support your semiconductor strategy.
+            If you would like to discuss a manufacturing, qualification, or supply chain challenge, please contact us for a confidential technical discussion.
           </p>
         </div>
 
@@ -198,11 +198,11 @@ export default function Contact() {
               <h4 className="font-display font-bold text-[#a855f7] mb-4">Why Choose SIPROSTECH?</h4>
               <ul className="space-y-3">
                 {[
-                  "10+ years European semiconductor ecosystem experience",
-                  "20+ years Deep foundry and semiconductor supply chain network",
-                  "Engineer-led approach with foundry expertise",
-                  "Comprehensive service portfolio: consulting, materials, lab services",
-                  "Execution-focused with traceability and compliance mindset",
+                  "Execution-driven, engineering-led support",
+                  "Hands-on experience across full semiconductor lifecycle",
+                  "Practical focus on implementation, not theory",
+                  "Deep understanding of European quality and Asian manufacturing",
+                  "Long-term partnership approach with traceability and compliance",
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-[#fbbf24] mt-2 flex-shrink-0"></div>
