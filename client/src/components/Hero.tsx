@@ -36,21 +36,19 @@ export default function Hero() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-6 animate-fade-in-up animation-delay-200">
-            <span className="text-gradient-cyan-violet">Bridging</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-semibold mb-8 animate-fade-in-up animation-delay-200">
+            <span className="text-gradient-cyan-violet">Bringing Semiconductor Excellence</span>
             <br />
-            <span className="text-foreground">Semiconductor</span>
-            <br />
-            <span className="text-foreground">Excellence</span>
+            <span className="text-foreground">Across Regions</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-foreground/70 mb-4 max-w-3xl mx-auto font-light animate-fade-in-up animation-delay-400">
-            Connecting European Semiconductor Eco-System with Asia's Wafer Manufacturing, Materials, Equipment, and Engineering Resources—with lower risk, higher efficiency, and full compatibility.
+          <p className="text-lg md:text-xl text-foreground/60 mb-4 max-w-3xl mx-auto font-light animate-fade-in-up animation-delay-400">
+            Connecting European semiconductor ecosystems with Asian manufacturing execution
           </p>
 
           <p className="text-lg text-[#fbbf24] mb-12 font-mono animate-fade-in-up animation-delay-600">
-            15+ Years European Ecosystem Experience + Asia Semiconductor Manufacturing Expertise
+            Foundry • Silicon Wafers • Reliability & Qualification • Test & Failure Analysis • Equipment & Manufacturing Ecosystems
           </p>
 
           {/* CTA Buttons */}
