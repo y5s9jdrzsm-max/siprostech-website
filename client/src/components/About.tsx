@@ -11,7 +11,7 @@ import { Building2, Users, Award, TrendingUp } from "lucide-react";
 export default function About() {
   const stats = [
     { icon: Building2, value: "2021", label: "Founded in Singapore" },
-    { icon: Users, value: "10+", label: "Years EU Experience" },
+    { icon: Users, value: "10+", label: "Years EU Semiconductor Eco-System Experience" },
     { icon: Award, value: "Expert", label: "Foundry Professionals" },
     { icon: TrendingUp, value: "Global", label: "Supply Chain Network" },
   ];
@@ -60,7 +60,7 @@ export default function About() {
             <div className="frosted-glass p-8 rounded-xl border border-white/10">
               <h3 className="text-2xl font-display font-bold text-[#00d9ff] mb-4">Founder Background</h3>
               <p className="text-foreground/80 leading-relaxed mb-4">
-                The founder has over 10 years of hands-on experience working with leading global semiconductor foundries and more than 10 European IC design companies.
+                The founder has 15 years of hands-on experience working with leading global semiconductor foundries, and 10 years working and networking experience in European semiconductor Eco-System.
               </p>
               <p className="text-foreground/70 text-sm leading-relaxed">
                 This experience spans technology development, foundry management, IP sourcing, qualification, test strategy, and global supply chain operations—covering the full semiconductor lifecycle from design to mass production.
