@@ -22,13 +22,30 @@ export default function Contact() {
   });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, this would send the form data to a server
-    toast.success("Message sent! We'll get back to you soon.", {
-      description: "Thank you for contacting Siprostech",
-    });
-    setFormData({ name: "", email: "", company: "", message: "" });
-  };
+  e.preventDefault();
+
+  const to = "zzwang@siprostech.com"; // TODO: change if needed
+
+  const subject = encodeURIComponent(
+    `Siprostech Website Inquiry - ${formData.name}${formData.company ? " / " + formData.company : ""}`
+  );
+
+  const body = encodeURIComponent(
+    `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Company: ${formData.company || "-"}\n\n` +
+      `Message:\n${formData.message}\n`
+  );
+
+  // Open user's email client with pre-filled content
+  window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+
+  toast.success("Opening your email client…", {
+    description: "Please click Send in your email app to deliver the message.",
+  });
+
+  setFormData({ name: "", email: "", company: "", message: "" });
+};
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -156,6 +173,12 @@ export default function Contact() {
                 Send Message
                 <Send className="ml-2" size={20} />
               </Button>
+<p className="text-sm text-foreground/60 text-center">
+  Prefer email? Write to{" "}
+  <a className="text-[#00d9ff] underline" href="mailto:zzwang@siprostech.com">
+    zzwang@siprostech.com
+  </a>
+</p>
             </form>
           </div>
 
@@ -184,7 +207,13 @@ export default function Contact() {
                         <h4 className="font-display font-bold mb-1" style={{ color: info.color }}>
                           {info.title}
                         </h4>
-                        <p className="text-foreground font-medium">{info.content}</p>
+                      {info.title === "Email" ? (
+  <a className="text-foreground font-medium underline" href={`mailto:${info.content}`}>
+    {info.content}
+  </a>
+) : (
+  <p className="text-foreground font-medium">{info.content}</p>
+)}
                         <p className="text-sm text-foreground/60">{info.description}</p>
                       </div>
                     </div>
